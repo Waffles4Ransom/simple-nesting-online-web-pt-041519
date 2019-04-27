@@ -80,14 +80,14 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
-        }
+        }}
   
   new_hash = {:yukihiro_matsumoto => {
                 :known_for => "Ruby",
                 :languages => ["LISP", "C"]
-              }}
-  programmer_hash.merge(new_hash)
-  return programmer_hash
+              }
+  }
+  programmer_hash[:yukihiro_matsumoto] = ":known_for"
     
 end
 
